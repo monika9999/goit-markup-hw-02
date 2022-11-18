@@ -237,21 +237,21 @@ h2 {
 
 /*PSEUDOKLASY*/
 
-.logo:hover, logo:focus {
+.logo:hover, .logo:focus {
     color:var(--selection-color);
 }
 
-.logo-part:hover, logo-part:focus {
+.logo-part:hover, .logo-part:focus {
         color:var(--selection-color);
 }
 
-.link:hover, link:focus {
+.link:hover, .link:focus {
     color:var(--selection-color);
 }
-.link-color:hover, link-color:focus {
+.link-color:hover, .link-color:focus {
     color:var(--selection-color);
 }
-.link-mail:hover, link-mail:focus {
+.link-mail:hover, .link-mail:focus {
     color:var(--selection-color);
 }
 .link-tel:hover, .link-tel:focus {
