@@ -2,116 +2,174 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="index.html">Web Studio</a>
+      <a class="logo" href="index.html"
+        >Web <span class="logo-part">Studio</span>
+      </a>
       <nav>
         <ul>
-          <li><a href="/Agencja"> Agencja </a></li>
-          <li><a href="./Portfolio.html"> Portfolio </a></li>
-          <li><a href="/Kontakt"> Kontakt </a></li>
+          <li class="nav-list">
+            <a class="link" href="/Agencja"> Agencja </a>
+          </li>
+          <li class="nav-list">
+            <a class="link-color" href="./Portfolio.html"> Portfolio </a>
+          </li>
+          <li class="nav-list">
+            <a class="link" href="/Kontakt"> Kontakt </a>
+          </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <div><a href="tel:+48111111111">+48 111 111 111</a></div>
+      <a class="link-tel" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <div><a class="link-tel" href="tel:+48111111111">+48 111 111 111</a></div>
     </header>
     <main>
-      <section>
-        <button type="button">Wszystkie</button>
-        <button type="button">Strony</button>
-        <button type="button">Aplikacje</button>
-        <button type="button">Dizajn</button>
-        <button type="button">Marketing</button>
-      </section>
-      <section>
+      <div>
+        <button class="botton" type="button">Wszystkie</button>
+        <button class="botton-select" type="button">Strony</button>
+        <button class="botton-select" type="button">Aplikacje</button>
+        <button class="botton-select" type="button">Dizajn</button>
+        <button class="botton-select" type="button">Marketing</button>
+      </div>
+      <div>
         <ul>
-          <li>
-            <img
-              src="images/web-site-technocrack.jpg"
-              width="370"
-              height="294"
-              alt="web-site-technocrack"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/web-site-technocrack.jpg"
+                width="370"
+                height="294"
+                alt="web-site-technocrack"
+              />
+              <p class="page-title">Technocrack</p>
+              <p class="page-text">Strona internetowa</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/design-graphics.jpg"
-              width="370"
-              height="294"
-              alt="design-graphics"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/design-graphics.jpg"
+                width="370"
+                height="294"
+                alt="design-graphics"
+              />
+              <p class="page-title">Grafika New Orlean vs Golden Star</p>
+              <p class="page-text">Dizajn</p>
+            </div>
           </li>
 
-          <li>
-            <img
-              src="images/app-restaurant.jpg"
-              width="370"
-              height="294"
-              alt="app-restaurant"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/app-restaurant.jpg"
+                width="370"
+                height="294"
+                alt="app-restaurant"
+              />
+              <p class="page-title">Restauracja Seafood</p>
+              <p class="page-text">Aplikacja</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/marketing-headphones.jpg"
-              width="370"
-              height="294"
-              alt="marketing-headphones"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/marketing-headphones.jpg"
+                width="370"
+                height="294"
+                alt="marketing-headphones"
+              />
+              <p class="page-title">Projekt Prime</p>
+              <p class="page-text">Marketing</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/app-boxes.jpg"
-              width="370"
-              height="294"
-              alt="app-boxes"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/app-boxes.jpg"
+                width="370"
+                height="294"
+                alt="app-boxes"
+              />
+              <p class="page-title">Projekt Boxes</p>
+              <p class="page-text">Aplikacja</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/web-site-inspiration-has-no-borders.jpg"
-              width="370"
-              height="294"
-              alt="web-site-inspiration-has-no-borders"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/web-site-inspiration-has-no-borders.jpg"
+                width="370"
+                height="294"
+                alt="web-site-inspiration-has-no-borders"
+              />
+              <p class="page-title">Inspiration has no Borders</p>
+              <p class="page-text">Strona internetowa</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/design-magazine.jpg"
-              width="370"
-              height="294"
-              alt="design-magazine"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/design-magazine.jpg"
+                width="370"
+                height="294"
+                alt="design-magazine"
+              />
+              <p class="page-title">Magazyn Limited Edition</p>
+              <p class="page-text">Dizajn</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/marketing-lab.jpg"
-              width="370"
-              height="294"
-              alt="marketing-lab"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/marketing-lab.jpg"
+                width="370"
+                height="294"
+                alt="marketing-lab"
+              />
+              <p class="page-title">Projekt LAB</p>
+              <p class="page-text">Marketing</p>
+            </div>
           </li>
-          <li>
-            <img
-              src="images/app-growing-buisness.jpg"
-              width="370"
-              height="294"
-              alt="app-growing-buisness"
-            />
+          <li class="page-list">
+            <div class="page-block">
+              <img
+                src="images/app-growing-buisness.jpg"
+                width="370"
+                height="294"
+                alt="app-growing-buisness"
+              />
+              <p class="page-title">Growing Business</p>
+              <p class="page-text">Aplikacja</p>
+            </div>
           </li>
         </ul>
-            </main>
-    <footer>
-      <address>
-        <a href="index.html">Web Studio</a><br>
-        m. Warszawa, Aleje Jerozolimskie 21<br>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-        <a href="tel:+48111111111">+48 111 111 111</a>
-      </address>
-    </footer>
-      </section>
+      </div>
+    </main>
+
+    <div class="darkbg">
+      <footer>
+        <a class="logo" href="index.html"
+          >Web <span class="logo-part-footer">Studio</span>
+        </a>
+        <br />
+        <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
+        <br />
+        <a class="mail-tel-footer" href="mailto:info@example.com"
+          >info@example.com</a
+        ><br />
+        <a class="mail-tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+      </footer>
+    </div>
   </body>
 </html>
