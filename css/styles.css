@@ -260,6 +260,10 @@ body {
     color:var(--selection-color);
 }
 
+.mail-tel-footer:hover, .mail-tel-footer:focus {
+    color:var(--selection-color);
+}
+
 .botton:hover, .botton:focus 
 {background-color:var(--selection-color);
 }
